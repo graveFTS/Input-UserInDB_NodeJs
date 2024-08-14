@@ -1,0 +1,20 @@
+REST API -JSON
+
+GET /users - HTML Document - DONE(if there is a browser then /users will get a html data.And other user get raw JSON data at this path /api/users)
+GET /users - List all users- DONE(mobile users get raw data)
+
+GET /api/users/1 - GET the user with Id1- DONE
+GET /api/users/2 - GET the user with Id2- DONE
+
+Dynamic path parameters
+GET /api/users/:Id
+:id -> Variable | Dynamic
+
+
+POST /api/ users - create a new user
+
+PATCH /api/users/1 - PATCH the user with Id1
+
+DELETE /api/users/1 - DELETE the user with Id 1
+
+// use Middleware to get user data from postman to express
